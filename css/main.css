@@ -3,16 +3,16 @@
     --spacing: 15px;
     --font-size: 1.15rem;
     /* Normal Colors */
-    --background-color: white;
+    --background-color: #D9D9D9;
     --alt-background-color: gainsboro;
     --font-color: black;
-    --alt-font-color: darkslategray;
+    --alt-font-color: #53687E;
     --border-color: black;
     /* Dark Mode Colors */
-    --dark-background-color: black;
+    --dark-background-color: #0A0A0A;
     --dark-alt-background-color: darkslategray;
     --dark-font-color: white;
-    --dark-alt-font-color: gainsboro;
+    --dark-alt-font-color: #172A3A;
     --dark-border-color: white;
 }
 
@@ -139,6 +139,28 @@ div#company-info {
 
 div#company-info img {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#company-info p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 21px;;
+}
+
+div#extra-info {
+    background-color: #53687E;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    margin-top: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+div#extra-info h2 {
     text-align: center;
 }
 
