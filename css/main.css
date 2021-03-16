@@ -141,6 +141,7 @@ div#company-info img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 div#company-info p {
@@ -148,6 +149,22 @@ div#company-info p {
     align-items: center;
     text-align: center;
     font-size: 21px;;
+}
+
+div#customer-policy h3{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+div#customer-policy ol{
+font-size: 25px;
+margin-left: 15%;
+margin-right: 15%;
+}
+
+div#customer-policy li {
+    margin-top: 20px;
 }
 
 div#extra-info {
@@ -169,6 +186,7 @@ div#extra-info img {
     grid-row: 2;
     margin-left: auto;
     margin-right: auto;
+    width: 150px;
 }
 
 div#extra-info img:nth-child(2) {
@@ -202,6 +220,7 @@ p.availability {
     text-align: center;
     grid-column: 1;
     grid-row: 3;
+    font-size: 22px;
 }
 
 p.affordable {
@@ -210,6 +229,7 @@ p.affordable {
     text-align: center;
     grid-column: 4;
     grid-row: 3;
+    font-size: 22px;
 }
 
 p.assurance {
@@ -218,6 +238,7 @@ p.assurance {
     text-align: center;
     grid-column: 2;
     grid-row: 3;
+    font-size: 22px;
 }
 
 p.acceptance {
@@ -226,6 +247,7 @@ p.acceptance {
     text-align: center;
     grid-column: 3;
     grid-row: 3;
+    font-size: 22px;
 }
 
 footer a {
