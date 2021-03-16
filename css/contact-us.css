@@ -1,0 +1,6 @@
+form#contact-form {
+    display: grid;
+    align-items: center;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
+}
