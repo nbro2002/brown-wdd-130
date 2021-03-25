@@ -16,44 +16,74 @@
     --dark-border-color: white;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-rendering: optimizeLegibility;
+}
 
-form#contact-form {
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 62.5%;
+}
+
+header {
     display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto 1fr auto;
+    font-size: var(--font-size);
+    padding: var(--spacing);
+    border-bottom: 1px solid var(--border-color);
+    color: var(--alt-font-color);
+    background-color: var(--alt-background-color);
+}
+
+header a {
+    color: var(--alt-font-color);
+}
+
+div#company-name {
+    display: flex;
+    align-items: center
+}
+
+header nav {
+    display: flex;
     align-items: center;
-    grid-template-rows: auto auto auto auto;
-    grid-template-columns: auto auto auto auto auto;
-    margin-bottom: 50px;
-    height: 75%;
-}
-
-div.form-title {
-    text-align: center;
-    grid-row: 1;
     grid-column: 3;
 }
 
-label.name {
-    grid-row: 2;
-    grid-column: 3;
-    text-align: center;
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
-label.subject {
-    grid-row: 3;
-    grid-column: 3;
-    text-align: center;
+header nav ul li {
+    display: inline-block;
+    padding: 7.5px;
+    margin-right: 7.5px;
 }
 
-label.message {
-    grid-row: 4;
-    grid-column: 3;
-    text-align: center;
+main {
+    flex: 1;
+    font-size: var(--font-size);
+    padding: var(--spacing);
+    color: var(--font-color);
+    background-color: var(--background-color);
 }
 
-input#contact-form-submit {
-    grid-row: 5;
-    grid-column: 3;
-    text-align: center;
+div#history {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+div#history img {
+    
 }
 
 footer a {

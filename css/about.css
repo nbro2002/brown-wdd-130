@@ -1,3 +1,22 @@
+:root {
+    /* Settings */
+    --spacing: 15px;
+    --font-size: 1.15rem;
+    /* Normal Colors */
+    --background-color: #D9D9D9;
+    --alt-background-color: gainsboro;
+    --font-color: black;
+    --alt-font-color: #53687E;
+    --border-color: black;
+    /* Dark Mode Colors */
+    --dark-background-color: #0A0A0A;
+    --dark-alt-background-color: darkslategray;
+    --dark-font-color: white;
+    --dark-alt-font-color: #badefc;
+    --dark-border-color: white;
+}
+
+
 html, body {
     margin: 0;
     padding: 0;
